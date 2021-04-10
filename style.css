@@ -7,3 +7,7 @@ th{
 td{
     border: solid;
 }
+#headerItalic{
+    font-weight: normal;
+    font-style: italic;
+}
