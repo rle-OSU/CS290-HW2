@@ -8,6 +8,7 @@ td{
     border: solid;
 }
 #headerItalic{
+    /*how to override bold setting in table header: https://stackoverflow.com/questions/29135354/how-do-i-make-the-text-in-the-header-of-my-table-not-bold */
     font-weight: normal;
     font-style: italic;
 }
