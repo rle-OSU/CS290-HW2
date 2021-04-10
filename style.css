@@ -11,3 +11,16 @@ td{
     font-weight: normal;
     font-style: italic;
 }
+.outer-content{
+    background-color: pink;
+    margin-top: 20px;
+    width: 75%;
+    padding: 10px;
+}
+.inner-content{
+    background-color: lightblue;
+    text-align: center;
+    width: 75%;
+    /*how to center block type elements: https://www.w3schools.com/css/css_align.asp*/
+    margin: auto;
+}
