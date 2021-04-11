@@ -25,3 +25,15 @@ td{
     /*how to center block type elements: https://www.w3schools.com/css/css_align.asp*/
     margin: auto;
 }
+label{
+    border-style: solid;
+    display: block;
+    padding: 10px;
+}
+/*using nth-of type selector: https://www.w3schools.com/cssref/sel_nth-of-type.asp*/
+tbody>tr:nth-of-type(even){
+    background-color: chartreuse;
+}
+tbody>tr:nth-of-type(odd){
+    background-color: cyan;
+}
